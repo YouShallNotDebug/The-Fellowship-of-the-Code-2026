@@ -8,7 +8,6 @@ LOTR Quote relevant to the assignment or artifact "..." - Character
 ## Table of Contents
 
 - [The Fellowship Companion](#the-fellowship-companion)
-  - [Table of Contents](#table-of-contents)
   - [Purpose of The Fellowship Companion (TFC)](#purpose-of-the-fellowship-companion-tfc)
   - [Rules of our Journey](#rules-of-our-journey)
   - [Chapters](#chapters)
