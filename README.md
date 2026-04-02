@@ -8,7 +8,7 @@
 
 * **Team Name:** *You Shall Not Debug*
 * **Members:** *Byelousova Halyna, Federmann Vanessa, Szabady Shira, Wininger Lara-Ana, Wuggenig Laksmi Devaki*
-* **Repository:** *(GitHub-Link einfügen)*
+* **Repository:** *https://github.com/YouShallNotDebug/The-Fellowship-of-the-Code-2026*
 
 ---
 
