@@ -1,6 +1,4 @@
-# The-FellowShip-of-the-Code-2026
-
-## The Fellowship Companion
+# The Fellowship Companion
 
 The Fellowship of the Code – A Developer's Tale
 
@@ -9,12 +7,13 @@ LOTR Quote relevant to the assignment or artifact "..." - Character
 
 ## Table of Contents
 
-    The Fellowship Companion
-        Purpose of The Fellowship Companion (TFC)
-        Rules of our Journey
-        Chapters
-        Key Features of The Fellowship Companion
-        Changelog
+- [The Fellowship Companion](#the-fellowship-companion)
+  - [Table of Contents](#table-of-contents)
+  - [Purpose of The Fellowship Companion (TFC)](#purpose-of-the-fellowship-companion-tfc)
+  - [Rules of our Journey](#rules-of-our-journey)
+  - [Chapters](#chapters)
+  - [Key Features of The Fellowship Companion](#key-features-of-the-fellowship-companion)
+  - [Changelog](#changelog)
 
 ## Purpose of The Fellowship Companion (TFC)
 
