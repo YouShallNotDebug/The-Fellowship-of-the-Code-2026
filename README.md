@@ -78,5 +78,7 @@ Each chapter has its own detailed changelog for chapter-specific updates.
 **Adapt to your project...**
 
 02.04.2026 - repository erstellt
+
 Y
+
 Z
