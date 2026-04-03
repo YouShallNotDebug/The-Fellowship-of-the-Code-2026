@@ -1,13 +1,13 @@
 # The Fellowship Companion
 
-    The Fellowship of the Code – A Developer's Tale
+The Fellowship of the Code – A Developer's Tale
 
-    needs adaptation
-LOTR Quote relevant to the assignment or artifact ".." - Character
+"All we have to decide is what to do with the time that is given us." - Gandalf
 
 ## Table of Contents
 
 - [The Fellowship Companion](#the-fellowship-companion)
+  - [Table of Contents](#table-of-contents)
   - [Purpose of The Fellowship Companion (TFC)](#purpose-of-the-fellowship-companion-tfc)
   - [Rules of our Journey](#rules-of-our-journey)
   - [Chapters](#chapters)
@@ -16,14 +16,15 @@ LOTR Quote relevant to the assignment or artifact ".." - Character
 
 ## Purpose of The Fellowship Companion (TFC)
 
-    Adapt to your project...
+We are five hobbits on our journey from the Shire to Mordor, currently facing uncertain and risky decisions such as whether to pass through Moria or take a longer alternative route. Along the way, we must manage limited resources, avoid dangers, and stay connected as a group.
 
-We are 5 hobbits on our great journey from the Shire to Mordor. Along the way, we need a system to support our planning, decisions, communication, and survival.
-The Fellowship Companion is a evolving digital tool we build together. It is not perfect, it is not finished - it evolves as we travel.
+The Fellowship Companion is an evolving digital tool that supports us in navigating these challenges. It helps us better understand our situation, evaluate possible paths, and stay aligned as a group despite uncertainty.
 
-Who we are: The Fellowship - a group of 5 hobbits (students) working together.
-What we build: A companion system that helps manage our journey, resources, and tasks.
-Why we build it: So our journey succeeds and we understand the mindset, logic, design, and practice of developers.
+**Who we are:** The Fellowship — a group of 5 hobbits (students) facing an unpredictable and dangerous journey
+
+**What we build:** A companion system that supports decision-making, resource awareness, and coordination during the journey
+
+**Why we build it:** To reduce uncertainty, avoid unnecessary risks, and enable informed decisions while learning how developers design and structure systems
 
 ## Rules of our Journey
 
@@ -61,24 +62,20 @@ Chapter V - The Tale Continues
 
 ## Key Features of The Fellowship Companion
 
-    Adapt to your project...
+**Route Evaluation:** compare alternative paths (e.g., Moria vs. longer routes) based on risk, distance, and resource consumption
 
-Journey Planning: map tasks, flows, and deadlines
-Resource Management: track fictional “hobbit resources” (food, supplies, morale)
-Decision Support: flows and logic for key choices on the journey
-Communication: share work, reflections, and AI learnings
-Versioned & Evolving: artifacts build on each other, tracked in The Red Book
+**Resource Awareness:** track and estimate critical resources such as food, energy, and supplies throughout the journey
+
+**Risk Assessment:** identify and evaluate potential dangers (e.g., enemies, unknown terrain, uncertainty) along different paths
+
+**Decision Support:** provide structured guidance and recommendations to support informed decision-making under uncertainty
+
+**Group Coordination:** maintain shared understanding and enable communication between members, even if separated
+
+**Journey Tracking:** keep a record of decisions, changes, and progress over time
 
 ## Changelog
 
-    This is our general changelog (e.g., new chapter contents added, rules changed, or major system revisions).
-
-    Each chapter has its own detailed changelog for chapter-specific updates.
-
-    Adapt to your project...
-
 02.04.2026 - repository erstellt
 
-Y
-
-Z
+03.04.2026 - added artifact 1 and chapter 1
