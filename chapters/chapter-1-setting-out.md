@@ -7,7 +7,7 @@ We described the challenges the Fellowship faces on their journey, especially th
 
 ## Artifact
 
-- Link: [insert your artifact link here]
+- Link: [Artifact 1 – Situation & Intent](./artifacts/artifact-1/artifact-1-situation-intent.md)
 
 In our artifact, we described:
 
