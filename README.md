@@ -37,7 +37,7 @@ The Red Book of Westmark (README.md + chapters/) is our reflection log and livin
 Chapter I - Setting Out
 “I will take the Ring, though I do not know the way.” - Frodo
 
-Go to Chapter I →
+[Go to Chapter I](./chapters/chapter-1-setting-out.md) →
 
 Chapter II - Paths & Choices
 “All we have to decide is what to do with the time that is given us.” - Gandalf
