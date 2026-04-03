@@ -3,7 +3,7 @@
 The Fellowship of the Code – A Developer's Tale
 
 **needs adaptation**
-LOTR Quote relevant to the assignment or artifact "..." - Character
+LOTR Quote relevant to the assignment or artifact ".." - Character
 
 ## Table of Contents
 
