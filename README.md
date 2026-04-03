@@ -1,8 +1,8 @@
 # The Fellowship Companion
 
-The Fellowship of the Code – A Developer's Tale
+    The Fellowship of the Code – A Developer's Tale
 
-**needs adaptation**
+    needs adaptation
 LOTR Quote relevant to the assignment or artifact ".." - Character
 
 ## Table of Contents
@@ -16,7 +16,7 @@ LOTR Quote relevant to the assignment or artifact ".." - Character
 
 ## Purpose of The Fellowship Companion (TFC)
 
-**Adapt to your project...**
+    Adapt to your project...
 
 We are 5 hobbits on our great journey from the Shire to Mordor. Along the way, we need a system to support our planning, decisions, communication, and survival.
 The Fellowship Companion is a evolving digital tool we build together. It is not perfect, it is not finished - it evolves as we travel.
@@ -61,7 +61,7 @@ Chapter V - The Tale Continues
 
 ## Key Features of The Fellowship Companion
 
-**Adapt to your project...**
+    Adapt to your project...
 
 Journey Planning: map tasks, flows, and deadlines
 Resource Management: track fictional “hobbit resources” (food, supplies, morale)
@@ -71,11 +71,11 @@ Versioned & Evolving: artifacts build on each other, tracked in The Red Book
 
 ## Changelog
 
-This is our general changelog (e.g., new chapter contents added, rules changed, or major system revisions).
+    This is our general changelog (e.g., new chapter contents added, rules changed, or major system revisions).
 
-Each chapter has its own detailed changelog for chapter-specific updates.
+    Each chapter has its own detailed changelog for chapter-specific updates.
 
-**Adapt to your project...**
+    Adapt to your project...
 
 02.04.2026 - repository erstellt
 
