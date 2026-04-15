@@ -81,6 +81,8 @@ Chapter V - The Tale Continues
 
 ## Changelog
 
-02.04.2026 - repository erstellt
-
-03.04.2026 - added artifact 1 and chapter 1
+| Version| Date       | Notes                                                                |
+|--------|------------|----------------------------------------------------------------------|
+| 1.0    | 2026-04-02 | Initial version of this repository, templates, and guidance          |
+| 1.1    | 2026-04-03 | Added artifact 1 and chapter 1                                       |
+| 1.2    | 2026-04-15 | Updated Changelog, Added Artifact 2 and Chapter 2                    |
