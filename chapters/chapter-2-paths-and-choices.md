@@ -20,7 +20,7 @@ We described the decisions we made regarding the Flow and the Design Interface.
 
 We used AI (ChatGPT) to help us to articulate our thoughts on the Flowchart and the Wireframe.
 
-We noticed that:
+We noticed:
 
 - a refining of our ideas
 
@@ -31,5 +31,5 @@ We reviewed and adjusted the AI output to match our original ideas.
 We learned that:
 
 - even seemingly simple capabilities can turn out very complex
-- some features need be kept simple to avoid overwhelming the users
+- some features need to be kept simple to avoid overwhelming the users
 - thinking about possible outcomes and simultaneously not overthinking it is very hard
