@@ -10,11 +10,19 @@ At this stage of the journey, the risk of encountering enemies such as Nazgûl o
 
 ---
 
-## Design Rationale
+## Flow
 
 [Go to decisions.mermaid.md](./src/decisions.mermaid.md) →
 
+---
+
+## Wireframe
+
 [Go to decisions.jpg](./src/decisions.jpg) →
+
+---
+
+## Design Rationale
 
 ### i. Support of Intent and Value
 
