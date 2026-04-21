@@ -86,3 +86,4 @@ Chapter V - The Tale Continues
 | 1.0    | 2026-04-02 | Initial version of this repository, templates, and guidance          |
 | 1.1    | 2026-04-03 | Added artifact 1 and chapter 1                                       |
 | 1.2    | 2026-04-15 | Updated Changelog, Added Artifact 2 and Chapter 2                    |
+| 1.3    | 2026-04-20 | Uploaded decisions.mermaid.md in src                                 |
