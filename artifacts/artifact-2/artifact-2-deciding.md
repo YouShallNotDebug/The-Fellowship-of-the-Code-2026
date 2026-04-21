@@ -12,6 +12,10 @@ At this stage of the journey, the risk of encountering enemies such as Nazgûl o
 
 ## Design Rationale
 
+[Go to decisions.mermaid.md](./src/decisions.mermaid.md) →
+
+[Go to decisions.jpg](./src/decisions.jpg) →
+
 ### i. Support of Intent and Value
 
 The design supports the Fellowship in making informed route decisions by presenting clear and structured information about available options.
