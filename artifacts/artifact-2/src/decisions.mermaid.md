@@ -32,5 +32,5 @@ flowchart TD
 
 <details>
   <summary>⚙️ System-Setup</summary>
-  <script type="module" src="src/mermaid-init.js"></script>
+  <script type="module" src="mermaid-init.js"></script>
 </details>
