@@ -29,6 +29,7 @@ flowchart TD
     O --> End
 
 ```
+
 <details>
   <summary>⚙️ System-Setup</summary>
   <script type="module" src="src/mermaid-init.js"></script>
