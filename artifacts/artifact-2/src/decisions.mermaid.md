@@ -30,15 +30,7 @@ flowchart TD
 
 ```
 
-<div id="mermaid-renderer-setup"></div>
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-
-const initMermaid = async () => {
-// 1. Mermaid initialisieren
-mermaid.initialize({
-startOnLoad: false,
-theme: 'default',
-securityLevel: 'loose'
-});
+<details>
+  <summary>⚙️ System-Setup</summary>
+  <script type="module" src="src/mermaid-init.js"></script>
+</details>
