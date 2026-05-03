@@ -9,3 +9,12 @@ We chose this capability because decision-making under uncertainty is a critical
 At this stage of the journey, the risk of encountering enemies such as Nazgûl or orcs is high. Therefore, having structured support for route decisions is essential for survival and mission success.
 
 ---
+
+## Static Interface
+
+- [HTML file](src/interface.html)
+- [CSS file](src/style.css)
+
+---
+
+## Design Rationale
