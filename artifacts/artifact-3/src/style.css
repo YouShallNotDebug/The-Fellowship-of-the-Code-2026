@@ -1,5 +1,5 @@
 body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman', serif;
     background: #1b2a1b;
     display: flex;
     justify-content: center;
@@ -34,7 +34,8 @@ body {
 }
 
 h1 {
-    font-family: 'Cinzel', serif;
+    font-family: Georgia, serif;
+    font-variant: small-caps;
     font-size: 22px;
     text-align: center;
     color: #e6d8a8;
