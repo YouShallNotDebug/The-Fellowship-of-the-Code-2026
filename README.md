@@ -89,3 +89,4 @@ Chapter V - The Tale Continues
 | 1.3    | 2026-04-20 | Uploaded decisions.mermaid.md in src                                 |
 | 1.4    | 2026-04-21 | Uploaded decisions.jpg in src                                        |
 | 1.5    | 2026-05-03 | Added artifact 3, interface.html and style.css                       |
+| 1.6    | 2026-05-05 | Completed artifact 3 and chapter 3                                   |
