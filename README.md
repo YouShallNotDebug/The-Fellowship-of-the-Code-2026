@@ -90,3 +90,4 @@ Chapter V - The Tale Continues
 | 1.4    | 2026-04-21 | Uploaded decisions.jpg in src                                        |
 | 1.5    | 2026-05-03 | Added artifact 3, interface.html and style.css                       |
 | 1.6    | 2026-05-05 | Completed artifact 3 and chapter 3                                   |
+| 1.7    | 2026-05-25 | Created misc/reading-the-runes.md, artifact-4-logic-state.md         |
