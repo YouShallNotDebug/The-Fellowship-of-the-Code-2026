@@ -6,88 +6,56 @@
 <title>Fellowship Companion</title>
 
 <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
 
 <div class="container">
 
-    <div class="top-bar">
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
     <h1>Fellowship Companion</h1>
-    <div class="separator"></div>
 
     <p class="text">
         Choose your destination and explore possible routes through Middle-earth.
     </p>
 
+    <!-- LOCATION -->
     <div class="dropdown">
-        <label>Location:</label>
-        <select>
+        <label for="location">Location:</label>
+
+        <select id="location">
+            <option value="">Select Location</option>
             <option>Rivendell</option>
             <option>The Shire</option>
             <option>Gondor</option>
             <option>Rohan</option>
-            <option>Mirkwood</option>
-            <option>Lothlórien</option>
-            <option>Isengard</option>
-            <option>Bree</option>
         </select>
     </div>
 
+    <!-- DESTINATION -->
     <div class="dropdown">
-        <label>Destination:</label>
-        <select>
-            <option>The Shire</option>
-            <option>Minas Tirith</option>
+        <label for="destination">Destination:</label>
+
+        <select id="destination">
+            <option value="">Select Destination</option>
             <option>Mordor</option>
-            <option>Helm's Deep</option>
-            <option>Mount Doom</option>
-            <option>Edoras</option>
-            <option>Dale</option>
-            <option>Lonely Mountain</option>
+            <option>Rivendell</option>
+            <option>Gondor</option>
+            <option>Rohan</option>
         </select>
     </div>
 
-    <div class="route-options">
-        <p class="label">Route Options</p>
+    <!-- MESSAGE -->
+    <p id="message">
+        Choose your location and destination.
+    </p>
 
-        <div class="card">
-            <div class="card-header">
-                <div class="left">
-                    <span class="icon danger">⚔️</span>
-                    <h3>Route A: Fast</h3>
-                </div>
-                <div class="selector"></div>
-            </div>
-            <p>Travel Time: Short</p>
-            <p>Risk Level: High</p>
-            <p>Stops: 1 waypoint</p>
-        </div>
-
-        <div class="card">
-            <div class="card-header">
-                <div class="left">
-                    <span class="icon safe">🛡️</span>
-                    <h3>Route B: Safe</h3>
-                </div>
-                <div class="selector"></div>
-            </div>
-            <p>Travel Time: Longer</p>
-            <p>Risk Level: Low</p>
-            <p>Stops: 2 waypoints</p>
-        </div>
-    </div>
-
-    <div class="button">Confirm Decision</div>
+    <!-- ROUTE RESULTS -->
+    <div id="route-options"></div>
 
 </div>
+
+<!-- CONNECTS HTML TO JS -->
+<script src="logic.js"></script>
 
 </body>
 </html>
