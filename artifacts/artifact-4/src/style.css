@@ -1,3 +1,31 @@
+#message {
+    color: #e6d8a8;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#route-options {
+    margin-top: 15px;
+}
+
+#route-options button {
+    display: block;
+    width: 100%;
+    border: 2px solid #8b6f3d;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #2c3e2c;
+    color: #d8d0b0;
+    font-family: 'Times New Roman', serif;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#route-options button:hover {
+    background: #344934;
+}
 body {
     font-family: 'Times New Roman', serif;
     background: #1b2a1b;
