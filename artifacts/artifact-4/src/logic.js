@@ -1,4 +1,4 @@
-// Artifact 4: Application Logic & State
+// Artifact 4: Application logic and state
 // PLAIN JavaScript only - no libraries/frameworks
 
 let state = {
