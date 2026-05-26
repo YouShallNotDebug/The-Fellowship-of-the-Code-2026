@@ -1,5 +1,9 @@
 # Artifact 4: Application Logic & State
 
+- [HTML file](src/interface.html)
+- [CSS file](src/style.css)
+- [JavaScript file](src/logic.js)
+
 ## Selected System Capability
 
 The selected system capability is the Safe Route Decision System for The Fellowship Companion.

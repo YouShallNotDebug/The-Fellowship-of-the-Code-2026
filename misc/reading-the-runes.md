@@ -2,43 +2,41 @@
 
 ## Short Description Of The Code
 
-Der Code soll Essensrationen automatisch berechnen. Der User gibt eine Menge ein und kann anschließend auswählen, ob diese dem Lagerbestand hinzugefügt oder davon entnommen werden soll. Die Anwendung soll anschließend anzeigen, wie viele Rationen aktuell verfügbar sind. Zu Beginn beträgt der Lagerbestand 10 Rationen. 
-
----
+The code is designed to automatically calculate food rations. The user enters an amount and can then select whether this amount should be added to or removed from the stock. The application is then supposed to display the number of rations currently available. At the start, the initial stock is 10 rations.
 
 ## Identified Issue 1
 
-amountInput.value liefert standardmäßig einen String zurück. Dadurch kann es bei der Verwendung des +-Operators zu einer String-Verkettung statt zu einer mathematischen Addition oder Subtraktion kommen. 
+By default, amountInput.value returns a string. Consequently, using the + operator can result in string concatenation rather than mathematical addition or subtraction.
 
 **Where it occurs**
 
-Zeile 28 und Zeile 35
+Line 28 and Line 35
 
 **What the code intends to do**
 
-Der Code soll die eingegebenen Rationen korrekt addieren oder bei einer Mahlzeit vom Lagerbestand subtrahieren. 
+The code is intended to correctly add the entered rations to the stock or subtract them when a meal is consumed.
 
 **What actually happens instead**
 
-Da der eingegebene Wert als String behandelt wird, werden die Werte teilweise wie Zeichenketten aneinandergereiht, anstatt mathematisch berechnet zu werden. 
+Because the entered value is treated as a string, the values are sometimes chained together like text characters instead of being calculated mathematically.
 
 ### Why the issue matters
 
 **How it affects the user experience**
 
-Die Kernfunktion der Anwendung funktioniert dadurch nicht korrekt. Der User erhält somit keinen verlässlichen Lagerbestand angezeigt. 
+This prevents the core functionality of the application from working correctly. As a result, the user is not shown a reliable stock level.
 
-**How it could cause bugs later**
+***How it could cause bugs later**
 
-Der Logikfehler könnte sich an mehreren Stellen im System wiederholen und dadurch weitere Berechnungsfehler verursachen. 
+This logic error could repeat itself in multiple places across the system, leading to further calculation errors down the line.
 
 **Why it would be risky in a larger system**
 
-In größeren Systemen könnten dadurch falsche Daten verarbeitet oder gespeichert werden. Wenn sich Benutzer auf diese Berechnungen verlassen müssten, könnte dies zu erheblichen Problemen und unzuverlässigen Ergebnissen führen. 
+In larger systems, this could cause incorrect data to be processed or stored. If users had to rely on these calculations, it could lead to significant problems and unreliable outcomes.
 
 ### Description of fixes
 
-Der eingegebene Wert sollte als Zahl definiert werden: 
+The entered value should be explicitly defined as a number:
 
 Number(amountInput.value)
 
@@ -46,37 +44,37 @@ Number(amountInput.value)
 
 ## Identified Issue 2
 
-Im Eingabefeld können nicht nur Zahlen, sondern auch Buchstaben und andere ungültige Zeichen eingegeben werden. 
+The input field allows users to enter not only numbers but also letters and other invalid characters.
 
 **Where it occurs**
 
-Zeile 28 und Zeile 35
+Line 28 and Line 35
 
 **What the code intends to do**
 
-Der Code soll eine gültige Mengenangabe für die Rationen verarbeiten. 
+The code is intended to process a valid quantity for the rations.
 
 **What actually happens instead**
 
-Mit dem aktuellen Code können beliebige Zeichen eingegeben werden, ohne dass eine Fehlermeldung erscheint. 
+With the current code, any characters can be entered without triggering an error message.
 
 ### Why the issue matters
 
 **How it affects the user experience**
 
-Der User könnte versehentlich Buchstaben statt Zahlen eingeben und erhält dabei keine Rückmeldung über die fehlerhafte Eingabe. 
+The user could accidentally type letters instead of numbers and receives no feedback or warning about the faulty input.
 
 **How it could cause bugs later**
 
-Dadurch können ungültige Werte verarbeitet und falsche Lagerbestände angezeigt werden. 
+This allows invalid values to be processed, resulting in incorrect stock levels being displayed.
 
 **Why it would be risky in a larger system**
 
-Fehlende Eingabevalidierungen können zu fehlerhaften Datensätzen und später zu falschen Auswertungen oder Berechnungen führen.  
+A lack of input validation can lead to corrupted datasets, which later causes incorrect evaluations, reports, or calculations.
 
 ### Description of fixes
 
-Es sollte mit einer If-Struktur überprüft werden, ob der eingegebene Wert NaN (Not a Number) ist: 
+An if structure should be used to check whether the entered value is NaN (Not a Number):
 
 isNaN(value)
 
@@ -84,35 +82,54 @@ isNaN(value)
 
 ## Identified Issue 3
 
-Die Funktion updateStatus() wird an der falschen Stelle ausgeführt. 
+The updateStatus() function is executed in the wrong place.
 
 **Where it occurs**
 
-Zeile 37
+Line 37
 
 **What the code intends to do**
 
-Der Code soll den Lagerbestand aktualisieren und den User warnen, wenn nicht genügend Rationen vorhanden sind. 
+The code is supposed to update the stock levels and warn the user if there are not enough rations available.
 
 **What actually happens instead**
 
-Die Fehlermeldung “Not enought rations!” wird angezeigt, bevor der Lagerbestand tatsächlich verändert wurde. Dadurch kann es zu einer Verwirrung beim User kommen. 
+The error message “Not enough rations!” is displayed before the stock level has actually been modified. This can cause confusion for the user.
 
 ### Why the issue matters
 
 **How it affects the user experience**
 
-Die Anzeige kann für den User verwirrend sein, da die Fehlermeldung zu früh erscheint und somit den Lagerbestand verzerrt darstellt.  
+The display can be confusing for the user because the error message appears too early, thereby misrepresenting the actual state of the stock.
 
 **How it could cause bugs later**
 
-Der Fehler könnte sich durch Wiederverwendung oder Erweiterung des Codes weiter verbreiten. 
+This error could spread further if the code is reused, repurposed, or extended.
 
 **Why it would be risky in a larger system**
 
-Falsche oder verspätete Statusanzeigen können in größeren Anwendungen zu Missverständnissen und fehlerhaften Entscheidungen führen. 
+Incorrect or delayed status updates in larger applications can lead to misunderstandings and flawed decision-making.
 
 ### Description of fixes
 
-updateStatus() sollte erst nach der erfolgreichen Verarbeitung innerhalb der if-else-Struktur ausgeführt werden. 
+updateStatus() should only be executed after successful processing within the if-else structure.
 
+---
+
+## AI Usage
+
+**What did you ask the AI?** 
+
+We used the AI to verify our identified errors and additionally sought assistance with the linguistic phrasing and structuring of our final report.
+
+**What was helpful?** 
+
+Since we do not have much experience in this area yet, getting confirmation for our assumptions was very helpful. Furthermore, the AI assisted us in formulating the report more clearly and precisely without repeating contents unnecessarily.
+
+**What was misleading or incomplete?** 
+
+From our perspective, the answers provided by the AI were helpful, accurate, and easy to understand.
+
+**What did you have to decide yourself?** 
+
+The actual analysis of the logic errors, their impact on the daily workflow, as well as the description of potential risks were completely worked out by ourselves in order to avoid potential AI hallucinations.
