@@ -16,7 +16,7 @@ which state our capability depends on and why that is important
 the design rationale behind our decisions
 
 
-We created an [logic.js](../artifacts/artifact-4/src/logic.js) and updated the [interface.html](../artifacts/artifact-4/src/interface.html) and the[style.css](../artifacts/artifact-4/src/style.css) file to represent how the system could look and be used by the Fellowship.
+We created an [logic.js](../artifacts/artifact-4/src/logic.js) and updated the [interface.html](../artifacts/artifact-4/src/interface.html) and the [style.css](../artifacts/artifact-4/src/style.css) file to represent how the system could look and be used by the Fellowship.
 
 ## AI Assistance
 
