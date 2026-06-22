@@ -65,6 +65,10 @@ Chapter V - The Tale Continues
 
 [Go to Chapter V](./chapters/chapter-5-the-tale-continues.md) →
 
+Misc
+
+[Go to Misc](./misc/) →
+
 ## Key Features of The Fellowship Companion
 
 **Route Evaluation:** compare alternative paths (e.g., Moria vs. longer routes) based on risk, distance, and resource consumption
@@ -94,4 +98,4 @@ Chapter V - The Tale Continues
 | 1.8    | 2026-05-26 | updated artifact-4-logic-state.md and chapter 4                                                   |
 | 1.9    | 2026-06-09 | added flowchart-system.mermaid.md and wireframe-system.jpg                                        |
 | 1.10   | 2026-06-22 | added extending-the-fellowship.md and html, js and css for home, rationstracker and routeplanner  |
-| 1.10   | 2026-06-22 | added artifact-5-integration-extension.md and updated chapter-5-the-tale-continues                |
+| 1.11   | 2026-06-22 | added artifact-5-integration-extension.md and updated chapter-5-the-tale-continues                |
