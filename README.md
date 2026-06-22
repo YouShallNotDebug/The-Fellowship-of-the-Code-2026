@@ -65,10 +65,6 @@ Chapter V - The Tale Continues
 
 [Go to Chapter V](./chapters/chapter-5-the-tale-continues.md) →
 
-Misc
-
-[Go to Misc](./misc/) →
-
 ## Key Features of The Fellowship Companion
 
 **Route Evaluation:** compare alternative paths (e.g., Moria vs. longer routes) based on risk, distance, and resource consumption
