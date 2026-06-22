@@ -81,16 +81,16 @@ Chapter V - The Tale Continues
 
 ## Changelog
 
-| Version| Date       | Notes                                                                                   |
-|--------|------------|-----------------------------------------------------------------------------------------|
-| 1.0    | 2026-04-02 | Initial version of this repository, templates, and guidance                             |
-| 1.1    | 2026-04-03 | Added artifact 1 and chapter 1                                                          |
-| 1.2    | 2026-04-15 | Updated Changelog, Added Artifact 2 and Chapter 2                                       |
-| 1.3    | 2026-04-20 | Uploaded decisions.mermaid.md in src                                                    |
-| 1.4    | 2026-04-21 | Uploaded decisions.jpg in src                                                           |
-| 1.5    | 2026-05-03 | Added artifact 3, interface.html and style.css                                          |
-| 1.6    | 2026-05-05 | Completed artifact 3 and chapter 3                                                      |
-| 1.7    | 2026-05-25 | Created misc/reading-the-runes.md, artifact-4-logic-state.md and implemented logic.js   |
-| 1.8    | 2026-05-26 | updated artifact-4-logic-state.md and chapter 4                                         |
-| 1.9    | 2026-06-09 | added flowchart-system.mermaid.md and wireframe-system.jpg                              |
-| 1.10   | 2026-06-22 | added extending-the-fellowship.md                                                       |
+| Version| Date       | Notes                                                                                             |
+|--------|------------|---------------------------------------------------------------------------------------------------|
+| 1.0    | 2026-04-02 | Initial version of this repository, templates, and guidance                                       |
+| 1.1    | 2026-04-03 | Added artifact 1 and chapter 1                                                                    |
+| 1.2    | 2026-04-15 | Updated Changelog, Added Artifact 2 and Chapter 2                                                 |
+| 1.3    | 2026-04-20 | Uploaded decisions.mermaid.md in src                                                              |
+| 1.4    | 2026-04-21 | Uploaded decisions.jpg in src                                                                     |
+| 1.5    | 2026-05-03 | Added artifact 3, interface.html and style.css                                                    |
+| 1.6    | 2026-05-05 | Completed artifact 3 and chapter 3                                                                |
+| 1.7    | 2026-05-25 | Created misc/reading-the-runes.md, artifact-4-logic-state.md and implemented logic.js             |
+| 1.8    | 2026-05-26 | updated artifact-4-logic-state.md and chapter 4                                                   |
+| 1.9    | 2026-06-09 | added flowchart-system.mermaid.md and wireframe-system.jpg                                        |
+| 1.10   | 2026-06-22 | added extending-the-fellowship.md and html, js and css for home, rationstracker and routeplanner  |
