@@ -2,7 +2,7 @@
 
 ## Summary
 
-In this assignment, we went through the whole process of implementing a system capability from the start. Creating a flowchart, a wireframe, the design and the logic were not 3 individual tasks but one big task on which we could use and solidify the things we learned to this point.
+In this assignment, we went through the whole process of implementing a system capability from the start. Creating a flowchart, a wireframe, the design and the logic were not three individual tasks but one big task on which we could use and solidify the things we learned to this point.
 
 ## Artifact
 
