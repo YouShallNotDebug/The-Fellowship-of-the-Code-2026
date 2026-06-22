@@ -93,3 +93,4 @@ Chapter V - The Tale Continues
 | 1.7    | 2026-05-25 | Created misc/reading-the-runes.md, artifact-4-logic-state.md and implemented logic.js   |
 | 1.8    | 2026-05-26 | updated artifact-4-logic-state.md and chapter 4                                         |
 | 1.9    | 2026-06-09 | added flowchart-system.mermaid.md and wireframe-system.jpg                              |
+| 1.10   | 2026-06-22 | added extending-the-fellowship.md                                                       |

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Fellowship Companion</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+    <a href="home.html" class="back-button">←</a>
+            <h1>
+            <a href="home.html" class="title-link">
+                The Fellowship Companion
+            </a>
+        </h1>
+    </div>
+
+    <div class="title-divider"></div>
+    
+    <h2>Route Planner</h2>
+
+    <p class="text">
+        Choose your destination and explore possible routes through Middle-earth.
+    </p>
+
+    <!-- LOCATION -->
+    <div class="dropdown">
+        <label for="location">Location:</label>
+
+        <select id="location">
+            <option value="">Select Location</option>
+            <option>Rivendell</option>
+            <option>The Shire</option>
+            <option>Gondor</option>
+            <option>Rohan</option>
+        </select>
+    </div>
+
+    <!-- DESTINATION -->
+    <div class="dropdown">
+        <label for="destination">Destination:</label>
+
+        <select id="destination">
+            <option value="">Select Destination</option>
+            <option>Mordor</option>
+            <option>Rivendell</option>
+            <option>Gondor</option>
+            <option>Rohan</option>
+        </select>
+    </div>
+
+    <!-- NACHRICHT! -->
+    <p id="message">
+        Choose your location and destination.
+    </p>
+
+    <!-- ROUTE -->
+    <div id="route-options"></div>
+
+</div>
+
+<!-- DAS HIER IST DIE LOGIC IMPLEMENTIERT -->
+<script src="routeplanner.js"></script>
+
+</body>
+</html>
